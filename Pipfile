@@ -1,0 +1,26 @@
+[scripts]
+tools = "python src/tools.py"
+agent = "python src/agent.py"
+tts = "python src/tts.py"
+generate_questions = "python src/generate_questions.py"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+beautifulsoup4 = "*"
+wikipedia = "*"
+google-api-python-client = "*"
+langchain-openai = "*"
+langgraph = "*"
+langchain-huggingface = "*"
+ipython = "*"
+playsound = "*"
+pyobjc = "*"
+langchain-anthropic = "*"
+transformers = "*"
+torch = "*"
+python-dotenv = "*"
+
+[dev-packages]
+ipykernel = "*"
